@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio de inicio-de-sesion</title>
+    <link rel="stylesheet" href="../CSS/inicio-de-sesion.css">
+    <script src="../JQUERY/jquery-3.7.1.min.js"></script>
+    <script>
+    $(document).ready(function () {
+        $(".abrir").dblclick(function () {
+        $(".container2").fadeIn(1000)
+        })
+        $(".abrir").dblclick(function () {
+        $(".signomenos").fadeIn(1000)
+        })
+        $(".abrir").dblclick(function () {
+        $(this).fadeOut(1000)
+        })
+        $(".signomenos").dblclick(function () {
+        $(".container2").fadeOut(1000)
+        })
+        $(".signomenos").dblclick(function () {
+        $(".abrir").fadeIn(1000)
+        })
+        $(".submit").click(function () {
+        alert("lo hiciste bb, iniciaste sesion")
+        })
+    })
+    </script>
+</head>
+
+
+<body>
+<div class="containerP">
+    <div class="container1">
+        <h1>Inicio de sesión</h1>
+    </div>
+<div class="containerP">
+    <img src="../IMG/icono de abrir.svg" class="abrir" alt="">
+<h2>INICIA SESION MI BB</h2>
+</div>
+    <div class="container2">
+        <form action="" method="get">
+            <img src="../IMG/icono de cerrar.svg" class="signomenos" alt="">
+<br>
+            <input class="input" type="text" name="" id="" placeholder="Correo electronico o numero de telefono">
+            <input class="input" type="password" name="" id="" placeholder="Contraseña">
+            <input class="submit" type="submit" value="iniciar sesion">
+        </div>
+        </form>
+    </div>
+</div>
+
+</body>
+
+</html> 

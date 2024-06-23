@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(236, 236, 142);
+}
+.containerP{
+    border-radius: 5px;
+    border: solid 5px rgb(7, 21, 49) ;
+    width: 80%;
+    margin-left: 10%;
+    padding: 2%;
+    background-color: rgb(204, 98, 236);
+    
+}
+h2{
+    margin: 10PX;
+    text-align: center;
+    font-family: Geneva, Verdana, sans-serif;
+
+}
+.container1{
+    background-color: rgb(238, 162, 222);
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3%;
+    justify-content: center;
+    margin-left: 30%;
+    width: 40%;
+    border-radius: 20px;
+    border: solid 10px black;
+    
+    
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    font-family: 'Trebuchet MS', sans-serif
+}
+
+
+
+.signomas{
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    width: 40px;
+    border-radius: 10px;
+
+}
+.signomenos{
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    width: 40px;
+    display: none;
+    border-radius: 10px;
+
+
+}
+
+.container2{
+    background-color: rgb(255, 255, 255)sss;
+    width: 40%;
+    padding: 3%;
+    margin-left: 25%;
+    border-radius: 20px;
+    display: none;
+    
+}
+.input{
+    width: 80%;
+    margin-left: 10%;
+    padding: 3%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    border-bottom: solid 5px;
+    border-left: solid 5px;
+}
+
+.submit{
+    width: 30%;
+    margin-left: 40%;
+    padding: 3%;
+    border-radius: 20px;
+    color: bisque;
+    background-color: black;
+    
+}
